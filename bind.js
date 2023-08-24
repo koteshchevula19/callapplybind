@@ -3,6 +3,7 @@ var person2 = {firstName: 'Kelly', lastName: 'King'};
 
 function say() {
     console.log('Hello ' + this.firstName + ' ' + this.lastName);
+    console.log("Hello");
 }
 
 var sayHelloJon = say.bind(person1);
